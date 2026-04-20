@@ -37,7 +37,8 @@ body {
     padding: 1rem 1.5rem;
     border-bottom: 2px solid var(--primary);
 }
-.logo { font-weight: 800; font-size: 1.2rem; color: var(--primary); }
+.logo { display: flex; align-items: center; font-weight: 800; font-size: 1.2rem; color: var(--primary); }
+.site-logo { height: 40px; margin-right: 10px; border-radius: 4px; }
 .lang-selector a {
     margin-left: 0.8rem;
     text-decoration: none;
