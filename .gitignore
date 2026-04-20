@@ -1,0 +1,14 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Gemini / Local Agent Files
+.gemini/
+.claude/
+.codex/
+
+# Other Local Environment Files
+.env
+*.log
+tmp/
+node_modules/
