@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Schedule: Children | DigiTruck</title>
+    <link rel="stylesheet" href="../../../../assets/css/site.css">
+    <link rel="stylesheet" href="../../../../assets/css/modules.css">
+    <style>
+        .schedule-row { display: grid; grid-template-columns: 100px 1fr; gap: 1rem; border-bottom: 1px solid var(--border); padding: 1rem 0; }
+        .time { font-weight: bold; color: var(--primary); }
+        .trainer-note { display: none; background: #fffaf0; border: 1px dashed #d69e2e; padding: 0.5rem; margin-top: 0.5rem; font-size: 0.85rem; }
+        body.show-trainer-notes .trainer-note { display: block; }
+        .toggle-box { background: var(--muted); padding: 1rem; border-radius: 8px; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo"><a href="../../../../index.html" style="text-decoration: none; color: inherit;">AI & Digital Capacity Building</a></div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="vision-hero">
+            <p class="breadcrumb">DigiTruck > Schedules > Daily</p>
+            <h1>Daily Schedule: Schoolchildren</h1>
+            <p>Focus: Learning productivity, safe internet habits, and AI study buddies.</p>
+        </section>
+
+        <div class="toggle-box">
+            <span>Viewing as: <strong>Learner</strong></span>
+            <button onclick="document.body.classList.toggle('show-trainer-notes')" class="btn outline" style="margin-top:0">Toggle Trainer Notes</button>
+        </div>
+
+        <div class="schedule-list">
+            <div class="schedule-row">
+                <div class="time">09:00</div>
+                <div class="activity">
+                    <h3>S1: Study Folders & Setup</h3>
+                    <p>Organizing device for schoolwork and mastering search skills.</p>
+                    <a href="../../modules/core/core-01-fundamentals.html" class="btn outline">Module CORE-01</a>
+                    <div class="trainer-note">Check that children know how to create a folder specifically for "Science" or "History."</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">09:45</div>
+                <div class="activity">
+                    <h3>S2: Respectful Online Behavior</h3>
+                    <p>WhatsApp rules, clear writing, and spotting misinformation.</p>
+                    <a href="../../modules/core/core-02-communication.html" class="btn outline">Module CORE-02</a>
+                    <div class="trainer-note">Group discussion: "What do you do if someone is mean in a group chat?"</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">10:30</div>
+                <div class="activity">
+                    <h3>S3: Cyberbullying & Privacy</h3>
+                    <p>The "Hard Gate": Passwords, privacy settings, and reporting to adults.</p>
+                    <a href="../../modules/core/core-03-safety-trust.html" class="btn outline">Module CORE-03</a>
+                    <div class="trainer-note">Focus on the "Ask-an-adult" rule for suspicious links.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">11:30</div>
+                <div class="activity">
+                    <h3>S4: Official Knowledge Lab</h3>
+                    <p>Finding official study portals and safe document uploads.</p>
+                    <a href="../../modules/core/core-04-gov-services.html" class="btn outline">Module CORE-04</a>
+                    <div class="trainer-note">Demo the National Library or Education Ministry portals.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">13:30</div>
+                <div class="activity">
+                    <h3>S5: Money Safety & Scam Links</h3>
+                    <p>Recognizing fake game offers and never sharing family OTPs.</p>
+                    <a href="../../modules/core/core-05-qr-payments.html" class="btn outline">Module CORE-05</a>
+                    <div class="trainer-note">Teach them to identify "Too good to be true" digital prizes.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">14:45</div>
+                <div class="activity">
+                    <h3>S6: AI Study Buddy Lab</h3>
+                    <p>Safe prompting for research, but verifying every answer.</p>
+                    <a href="../../modules/core/core-08-ai-aptitude.html" class="btn outline">Module CORE-08</a>
+                    <div class="trainer-note">Activity: "Ask AI for a fact, then find a book or site that proves it."</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">16:00</div>
+                <div class="activity">
+                    <h3>S7: Study Plan & Assessment</h3>
+                    <p>Personal learning routine and next clinic date.</p>
+                    <a href="../../modules/core/core-11-gn-continuity.html" class="btn outline">Module CORE-11</a>
+                    <div class="trainer-note">Ensure they know their "Digital Buddy" in class.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2000-2026 Samisa Abeysinghe</p>
+        </div>
+    </footer>
+</body>
+</html>

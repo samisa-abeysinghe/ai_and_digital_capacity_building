@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initial Weekly Calendar | DigiTruck</title>
+    <link rel="stylesheet" href="../../../assets/css/site.css">
+    <style>
+        .calendar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 2rem; }
+        .day-card { border: 2px solid var(--border); padding: 1rem; text-align: center; border-radius: 8px; }
+        .day-card.active { border-color: var(--accent); background: var(--lab-bg); }
+        .day-name { font-weight: bold; font-size: 1.2rem; margin-bottom: 0.5rem; display: block; }
+        .persona-name { font-weight: 800; color: var(--primary); }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo"><a href="../../../index.html" style="text-decoration: none; color: inherit;">AI & Digital Capacity Building</a></div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="vision-hero">
+            <p class="breadcrumb">DigiTruck > Schedules</p>
+            <h1>Initial Pilot Weekly Calendar</h1>
+            <p>Phase 1 Rollout: Dedicated focus on Officials, Children, and Women.</p>
+        </section>
+
+        <div class="calendar-grid">
+            <div class="day-card active">
+                <span class="day-name">Monday</span>
+                <span class="persona-name">GN Officials</span>
+                <p><a href="daily/officials.html" class="btn outline">Daily Schedule</a></p>
+            </div>
+            <div class="day-card">
+                <span class="day-name">Tuesday</span>
+                <span class="persona-name">Children</span>
+                <p><a href="daily/children.html" class="btn outline">Daily Schedule</a></p>
+            </div>
+            <div class="day-card">
+                <span class="day-name">Wednesday</span>
+                <span class="persona-name">Women</span>
+                <p><a href="daily/women.html" class="btn outline">Daily Schedule</a></p>
+            </div>
+            <div class="day-card">
+                <span class="day-name">Thursday</span>
+                <span class="persona-name">Children</span>
+                <p><a href="daily/children.html" class="btn outline">Daily Schedule</a></p>
+            </div>
+            <div class="day-card">
+                <span class="day-name">Friday</span>
+                <span class="persona-name">Women</span>
+                <p><a href="daily/women.html" class="btn outline">Daily Schedule</a></p>
+            </div>
+        </div>
+
+        <section class="job-aid-box" style="margin-top: 3rem;">
+            <h3>Pilot Goal</h3>
+            <p>The initial phase prioritizes the anchors of the community (Officials) and the two most impactful groups for digital inclusion (Women and Children). This cadence allows for deep repetition and feedback collection.</p>
+        </section>
+    </main>
+</body>
+</html>

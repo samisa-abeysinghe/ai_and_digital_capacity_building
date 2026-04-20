@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Schedule: GN Officials | DigiTruck</title>
+    <link rel="stylesheet" href="../../../../assets/css/site.css">
+    <link rel="stylesheet" href="../../../../assets/css/modules.css">
+    <style>
+        .schedule-row { display: grid; grid-template-columns: 100px 1fr; gap: 1rem; border-bottom: 1px solid var(--border); padding: 1rem 0; }
+        .time { font-weight: bold; color: var(--primary); }
+        .trainer-note { display: none; background: #fffaf0; border: 1px dashed #d69e2e; padding: 0.5rem; margin-top: 0.5rem; font-size: 0.85rem; }
+        body.show-trainer-notes .trainer-note { display: block; }
+        .toggle-box { background: var(--muted); padding: 1rem; border-radius: 8px; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo"><a href="../../../../index.html" style="text-decoration: none; color: inherit;">AI & Digital Capacity Building</a></div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="vision-hero">
+            <p class="breadcrumb">DigiTruck > Schedules > Daily</p>
+            <h1>Daily Schedule: GN Cell Officials</h1>
+            <p>Focus: Operational readiness, citizen support, and AI-assisted governance.</p>
+        </section>
+
+        <div class="toggle-box">
+            <span>Viewing as: <strong>Learner</strong></span>
+            <button onclick="document.body.classList.toggle('show-trainer-notes')" class="btn outline" style="margin-top:0">Toggle Trainer Notes</button>
+        </div>
+
+        <div class="schedule-list">
+            <div class="schedule-row">
+                <div class="time">09:00</div>
+                <div class="activity">
+                    <h3>S1: Support Readiness & Onboarding</h3>
+                    <p>Device check, data care, and GDEC role induction.</p>
+                    <a href="../../modules/core/core-01-fundamentals.html" class="btn outline">Module CORE-01</a>
+                    <div class="trainer-note">Check every official has the GDEC mobile registry app installed and synced.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">09:45</div>
+                <div class="activity">
+                    <h3>S2: Official Comms & Mobilization</h3>
+                    <p>Scripts for citizen outreach and professional digital etiquette.</p>
+                    <a href="../../modules/core/core-02-communication.html" class="btn outline">Module CORE-02</a>
+                    <div class="trainer-note">Roleplay: Handling a citizen who is afraid of using digital payments.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">10:30</div>
+                <div class="activity">
+                    <h3>S3: Safeguarding & Incident Flow</h3>
+                    <p>The "Hard Gate": Trust building and fraud reporting protocols.</p>
+                    <a href="../../modules/core/core-03-safety-trust.html" class="btn outline">Module CORE-03</a>
+                    <div class="trainer-note">Focus on the escalation map for reporting financial fraud.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">11:30</div>
+                <div class="activity">
+                    <h3>S4: Gov Service Directory Lab</h3>
+                    <p>Navigating DS/GN service portals and troubleshooting common issues.</p>
+                    <a href="../../modules/core/core-04-gov-services.html" class="btn outline">Module CORE-04</a>
+                    <div class="trainer-note">Demo the "Pensions" portal specifically for the local division data.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">13:30</div>
+                <div class="activity">
+                    <h3>S5: Payment Referral & Fraud Support</h3>
+                    <p>Verifying GovPay proofs and handling boundary issues.</p>
+                    <a href="../../modules/core/core-05-qr-payments.html" class="btn outline">Module CORE-05</a>
+                    <div class="trainer-note">Ensure officials know when to refer a citizen to the bank vs handling locally.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">14:45</div>
+                <div class="activity">
+                    <h3>S6: AI for Admin Workflows</h3>
+                    <p>Using AI for reports, summaries, and drafting official notifications.</p>
+                    <a href="../../modules/core/core-08-ai-aptitude.html" class="btn outline">Module CORE-08</a>
+                    <div class="trainer-note">Safety Check: Never input citizen PII into AI tools.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">16:00</div>
+                <div class="activity">
+                    <h3>S7: Continuity & KPI Reporting</h3>
+                    <p>Setting the continuity calendar and after-action review.</p>
+                    <a href="../../modules/core/core-11-gn-continuity.html" class="btn outline">Module CORE-11</a>
+                    <div class="trainer-note">Identify the "Digital Champion" for this cohort.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2000-2026 Samisa Abeysinghe</p>
+        </div>
+    </footer>
+</body>
+</html>

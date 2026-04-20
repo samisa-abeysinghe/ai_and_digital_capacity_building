@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Schedule: Elderly | DigiTruck</title>
+    <link rel="stylesheet" href="../../../../assets/css/site.css">
+    <link rel="stylesheet" href="../../../../assets/css/modules.css">
+    <style>
+        .schedule-row { display: grid; grid-template-columns: 100px 1fr; gap: 1rem; border-bottom: 1px solid var(--border); padding: 1rem 0; }
+        .time { font-weight: bold; color: var(--primary); }
+        .trainer-note { display: none; background: #fffaf0; border: 1px dashed #d69e2e; padding: 0.5rem; margin-top: 0.5rem; font-size: 0.85rem; }
+        body.show-trainer-notes .trainer-note { display: block; }
+        .toggle-box { background: var(--muted); padding: 1rem; border-radius: 8px; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between; }
+        body { font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo"><a href="../../../../index.html" style="text-decoration: none; color: inherit;">AI & Digital Capacity Building</a></div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="vision-hero">
+            <p class="breadcrumb">DigiTruck > Schedules > Daily</p>
+            <h1>Daily Schedule: Elderly / Excluded</h1>
+            <p>Focus: Phone basics, family connectivity, and assisted e-services.</p>
+        </section>
+
+        <div class="toggle-box">
+            <span>Viewing as: <strong>Learner</strong></span>
+            <button onclick="document.body.classList.toggle('show-trainer-notes')" class="btn outline" style="margin-top:0">Toggle Trainer Notes</button>
+        </div>
+
+        <div class="schedule-list">
+            <div class="schedule-row">
+                <div class="time">09:00</div>
+                <div class="activity">
+                    <h3>S1: Phone Basics & Accessibility</h3>
+                    <p>Mastering contacts, volume, and screen brightness for better viewing.</p>
+                    <a href="../../modules/core/core-01-fundamentals.html" class="btn outline">Module CORE-01</a>
+                    <div class="trainer-note">Help participants increase font size in system settings immediately.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">09:45</div>
+                <div class="activity">
+                    <h3>S2: Family Calls & WhatsApp</h3>
+                    <p>Making video calls and safe sharing of photos with family.</p>
+                    <a href="../../modules/core/core-02-communication.html" class="btn outline">Module CORE-02</a>
+                    <div class="trainer-note">Teach them how to "Block" a contact who sends suspicious spam.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">10:30</div>
+                <div class="activity">
+                    <h3>S3: Scam Recognition & Safety</h3>
+                    <p>The "Hard Gate": Never-share list and phone lock habits.</p>
+                    <a href="../../modules/core/core-03-safety-trust.html" class="btn outline">Module CORE-03</a>
+                    <div class="trainer-note">Use real-world stories of "Grandparent Scams" to illustrate risks.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">11:30</div>
+                <div class="activity">
+                    <h3>S4: Assisted e-Services Lab</h3>
+                    <p>Step-by-step clinic booking and pension status checks.</p>
+                    <a href="../../modules/core/core-04-gov-services.html" class="btn outline">Module CORE-04</a>
+                    <div class="trainer-note">Do not rush this. Let them navigate slowly with physical guidance.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">13:30</div>
+                <div class="activity">
+                    <h3>S5: Banking Safety & Receipts</h3>
+                    <p>Using the banking app to check history and save proof of payment.</p>
+                    <a href="../../modules/core/core-06-banking-atm.html" class="btn outline">Module CORE-06</a>
+                    <div class="trainer-note">Focus on the "SMS Alert" as a confirmation of safety.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">14:45</div>
+                <div class="activity">
+                    <h3>S6: AI Awareness & Voice Typing</h3>
+                    <p>Using voice instead of typing and understanding what AI is.</p>
+                    <a href="../../modules/core/core-07-ai-awareness.html" class="btn outline">Module CORE-07</a>
+                    <div class="trainer-note">Activity: Use the "Microphone" button to send a WhatsApp message.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">16:00</div>
+                <div class="activity">
+                    <h3>S7: Supported Plan & Helper</h3>
+                    <p>Identifying your "Digital Buddy" and next clinic enrollment.</p>
+                    <a href="../../modules/core/core-11-gn-continuity.html" class="btn outline">Module CORE-11</a>
+                    <div class="trainer-note">Connect each participant with a Local Trainer for follow-up.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2000-2026 Samisa Abeysinghe</p>
+        </div>
+    </footer>
+</body>
+</html>

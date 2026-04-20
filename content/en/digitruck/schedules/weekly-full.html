@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long-term Weekly Calendar | DigiTruck</title>
+    <link rel="stylesheet" href="../../../assets/css/site.css">
+    <style>
+        .calendar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-top: 2rem; }
+        .day-card { border: 2px solid var(--border); padding: 1rem; text-align: center; border-radius: 8px; transition: transform 0.2s; }
+        .day-card:hover { transform: scale(1.05); border-color: var(--primary); }
+        .day-name { font-weight: bold; font-size: 1.1rem; margin-bottom: 0.5rem; display: block; color: #666; }
+        .persona-name { font-weight: 800; color: var(--primary); font-size: 1.2rem; display: block; min-height: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo"><a href="../../../index.html" style="text-decoration: none; color: inherit;">AI & Digital Capacity Building</a></div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="vision-hero">
+            <p class="breadcrumb">DigiTruck > Schedules</p>
+            <h1>Full Operations Weekly Calendar</h1>
+            <p>Phase 2 Rollout: Covering all 6 core personas across a 6-day week.</p>
+        </section>
+
+        <div class="calendar-grid">
+            <div class="day-card">
+                <span class="day-name">Monday</span>
+                <span class="persona-name">GN Officials</span>
+                <p><a href="daily/officials.html" class="btn outline">View Day</a></p>
+            </div>
+            <div class="day-card">
+                <span class="day-name">Tuesday</span>
+                <span class="persona-name">Schoolchildren</span>
+                <p><a href="daily/children.html" class="btn outline">View Day</a></p>
+            </div>
+            <div class="day-card">
+                <span class="day-name">Wednesday</span>
+                <span class="persona-name">Women</span>
+                <p><a href="daily/women.html" class="btn outline">View Day</a></p>
+            </div>
+            <div class="day-card">
+                <span class="day-name">Thursday</span>
+                <span class="persona-name">Youth</span>
+                <p><a href="daily/youth.html" class="btn outline">View Day</a></p>
+            </div>
+            <div class="day-card">
+                <span class="day-name">Friday</span>
+                <span class="persona-name">Rural Entrepreneurs</span>
+                <p><a href="daily/entrepreneurs.html" class="btn outline">View Day</a></p>
+            </div>
+            <div class="day-card">
+                <span class="day-name">Saturday</span>
+                <span class="persona-name">Elderly / Excluded</span>
+                <p><a href="daily/elderly.html" class="btn outline">View Day</a></p>
+            </div>
+        </div>
+
+        <div class="concept-box" style="margin-top: 3rem;">
+            <h3>Operational Standard</h3>
+            <p>This 6-day cadence ensures that the DigiTruck serves the maximum diversity of the division. Sunday is reserved for vehicle maintenance and team rest.</p>
+        </div>
+    </main>
+</body>
+</html>
