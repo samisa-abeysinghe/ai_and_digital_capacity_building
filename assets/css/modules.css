@@ -1,0 +1,108 @@
+/*
+  AI and Digital Capacity Building - Module Styles
+  Aesthetic: Mature, professional, high-utility, mobile-first.
+  Focus: Readability, Safety Alerts, Step-by-Step Lab Activities.
+*/
+
+:root {
+    --safety-bg: #fff5f5;
+    --safety-border: #c53030;
+    --lab-bg: #f0fff4;
+    --lab-border: #276749;
+    --info-bg: #ebf8ff;
+    --info-border: #2b6cb0;
+    --maturity-m0: #718096;
+    --maturity-m1: #3182ce;
+    --maturity-m2: #2b6cb0;
+    --maturity-m3: #2c5282;
+}
+
+.module-header {
+    border-bottom: 4px solid var(--primary);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.module-meta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.meta-tag {
+    background: var(--muted);
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+}
+
+.maturity-badge {
+    font-weight: bold;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    background: var(--maturity-m0);
+}
+
+/* Core Content Components */
+.concept-box {
+    background: var(--info-bg);
+    border-left: 5px solid var(--info-border);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.safety-alert {
+    background: var(--safety-bg);
+    border: 2px solid var(--safety-border);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+
+.safety-alert h4 { color: var(--safety-border); margin-top: 0; }
+
+.lab-activity {
+    background: var(--lab-bg);
+    border: 1px solid var(--lab-border);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.lab-activity h4 { color: var(--lab-border); margin-top: 0; }
+
+.step-list {
+    list-style: none;
+    padding: 0;
+}
+
+.step-list li {
+    padding-left: 2rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.step-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--lab-border);
+    font-weight: bold;
+}
+
+/* Visual Aids */
+.job-aid-box {
+    border: 2px dashed var(--border);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    background: #fafafa;
+}
+
+@media print {
+    .module-meta, .nav-buttons { display: none; }
+    .safety-alert, .lab-activity { border: 1px solid #000; }
+}
