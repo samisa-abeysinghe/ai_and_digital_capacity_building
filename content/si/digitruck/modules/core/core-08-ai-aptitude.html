@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORE-08: AI ප්‍රායෝගික භාවිතය | DigiTruck අධ්‍යයන මාලාව</title>
+    <link rel="icon" type="image/x-icon" href="../../../../../assets/img/favicon.ico">
+    <link rel="stylesheet" href="../../../../../assets/css/site.css">
+    <link rel="stylesheet" href="../../../../../assets/css/modules.css">
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo">
+                <img src="../../../../../assets/img/ai-dl-sb-logo.jpg" alt="Logo" class="site-logo">
+                <a href="../../../../../index_si.html" style="text-decoration: none; color: inherit;">AI සහ ඩිජිටල් හැකියා සංවර්ධනය</a>
+            </div>
+            <div class="lang-selector">
+                <a href="../../../../en/digitruck/modules/core/core-08-ai-aptitude.html">English</a>
+                <a href="core-08-ai-aptitude.html" class="active">සිංහල</a>
+                <a href="#">தமிழ்</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="module-content">
+            <header class="module-header">
+                <p class="breadcrumb">DigiTruck > මූලික පාඩම්</p>
+                <h1>CORE-08: AI ප්‍රායෝගික භාවිතය සහ "ප්‍රොම්ප්ට්" (Prompt) පුහුණුව</h1>
+                <p class="summary">දැනුවත්භාවයෙන් ක්‍රියාකාරීත්වයට පිවිසෙමු. ඔබේ දෛනික ගැටළු විසඳා ගැනීමට AI මෙවලම් නිවැරදිව මෙහෙයවන ආකාරය ඉගෙන ගනිමු.</p>
+                
+                <div class="module-meta">
+                    <span class="meta-tag">ආරම්භක මට්ටම: <strong>M1 මූලික භාවිතය</strong></span>
+                    <span class="meta-tag" style="background: var(--accent); color: white;">අරමුණ: <strong>M3 ප්‍රායෝගික ප්‍රතිඵල</strong></span>
+                    <span class="meta-tag">UNESCO ප්‍රමිතිය: <strong>Problem Solving (5.3)</strong></span>
+                    <span class="meta-tag">කාලය: <strong>විනාඩි 60</strong></span>
+                </div>
+            </header>
+
+            <section class="concept-box">
+                <h2>1. මූලික සංකල්පය: T-C-F නීතිය</h2>
+                <p>AI එකකින් නිවැරදි ප්‍රතිඵලයක් ලබා ගැනීමට නම්, ඔබ දෙන උපදෙස් (Prompt) ඉතා පැහැදිලි විය යුතුය. එය "වැඩ-පසුබිම-ආකෘතිය" (Task-Context-Format) ලෙස හැඳින්විය හැකිය.</p>
+                <ul>
+                    <li><strong>වැඩ (Task):</strong> ඔබ AI එකෙන් බලාපොරොත්තු වන දේ (උදා: "ලිපියක් ලියන්න").</li>
+                    <li><strong>පසුබිම (Context):</strong> මෙය කා වෙනුවෙන්ද? ඇයි? (උදා: "ප්‍රාදේශීය ලේකම්වරයාට ව්‍යාපාරික බලපත්‍රයක් ඉල්ලීමට").</li>
+                    <li><strong>ආකෘතිය (Format):</strong> එය පෙනිය යුතු ආකාරය (උදා: "ගෞරවනීය සිංහලෙන්, වචන 150කට අඩුවෙන්").</li>
+                </ul>
+            </section>
+
+            <section class="lab-activity">
+                <h4>🛠 ප්‍රායෝගික ක්‍රියාකාරකම: දේශීය ගැටළුවක් විසඳමු</h4>
+                <p>ව්‍යවසායකයෙකු ලෙස මෙම අභියෝගය AI හරහා විසඳන්න:</p>
+                <p><em>"ඔබ උසස් තත්ත්වයේ පොල්තෙල් නිපදවන්නෙක්. දේශීය වෙළඳසැල් ජාලයකට ඔබේ නිෂ්පාදන හඳුන්වා දීමට අවශ්‍යයි."</em></p>
+                <ul class="step-list">
+                    <li><strong>පියවර 1:</strong> T-C-F නීතියට අනුව උපදෙස් මාලාවක් (Prompt) සකස් කරන්න.</li>
+                    <li><strong>පියවර 2:</strong> "මෙය ඉතා විනීත, ගෞරවනීය සිංහල පණිවිඩයක් ලෙස ලියා දෙන්න" යැයි AI එකට පවසන්න.</li>
+                    <li><strong>පියවර 3:</strong> "අපට ප්‍රාදේශීය ලේකම් කාර්යාලයෙන් ලැබුණු තත්ත්ව සහතිකය ගැනත් මෙහි සඳහන් කරන්න" යැයි පවසමින් පණිවිඩය තවදුරටත් දියුණු කරන්න.</li>
+                </ul>
+            </section>
+
+            <section class="safety-alert">
+                <h4>⚠️ "මිනිස් පාලනය" (Human-in-the-Loop) නීතිය</h4>
+                <p>AI මඟින් ලබා දෙන ප්‍රතිඵලය කිසිවිටකත් ඒ ආකාරයෙන්ම භාවිතා නොකරන්න. සැමවිටම එය කියවා බලා, ඔබේ අවශ්‍යතාවයට ගැලපෙන සේ වෙනස් කර, එහි ඇති මිල ගණන් සහ දින වකවානු නිවැරදි දැයි පරීක්ෂා කරන්න. **වගකීම ඇත්තේ ඔබට මිස AI එකට නොවේ.**</p>
+            </section>
+
+            <section class="lab-activity" style="background: var(--safety-bg); border-color: var(--safety-border);">
+                <h4 style="color: var(--safety-border);">🏆 M3 ජීවනෝපාය අභියෝගය</h4>
+                <p><strong>කාර්යය:</strong> ඔබට ඇත්තටම අවශ්‍ය ලේඛනයක් (උදා: රැකියා අයදුම්පතක්, නිල ලිපියක් හෝ Facebook දැන්වීමක්) AI හරහා සකස් කර ගන්න. එය පරීක්ෂා කර තහවුරු කර, ඔබේ දුරකථනයේ "නිල ලේඛන" ෆෝල්ඩරයේ සුරැකීමට කටයුතු කරන්න.</p>
+            </section>
+
+            <section class="job-aid-box">
+                <h2>🤝 "අසල්වැසියාට උදව්වක්" ප්‍රොටොකෝලය</h2>
+                <p>දැනුම බෙදා ගනිමින් ප්‍රජාව සවිබල ගන්වන්න:</p>
+                <p><em>"ලිපියක් හෝ අයදුම්පතක් ලියා ගැනීමට අපහසුවෙන් සිටින අයෙකුට, AI 'කෙටුම්පත් සහායකයෙකු' ලෙස භාවිතා කරන ආකාරය පෙන්වා දෙන්න. T-C-F නීතිය ඔවුන්ට කියා දෙන්න."</em></p>
+            </section>
+
+            <div class="nav-buttons" style="margin-bottom: 3rem;">
+                <a href="core-07-ai-awareness.html" class="btn outline">← පෙර පාඩම: CORE-07</a>
+                <a href="core-09-productivity.html" class="btn">ඊළඟ පාඩම: ඵලදායී පුරුදු →</a>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2000-2026 සමීස අබේසිංහ. <a href="../../../../../LICENSE">CC BY-SA 4.0</a> යටතේ බලපත්‍ර ලබා ඇත.</p>
+            <p class="trust-tagline">විශ්වාසය ගොඩනඟමු. විශ්වාස කිරීමට පෙර සත්‍යාපනය කරමු. සෑම දෙයක්ම පරීක්ෂා කරමු.</p>
+        </div>
+    </footer>
+</body>
+</html>
