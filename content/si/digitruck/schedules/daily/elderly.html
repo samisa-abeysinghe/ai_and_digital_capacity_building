@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>දින සැලසුම: වැඩිහිටි ප්‍රජාව | DigiTruck</title>
+    <link rel="icon" type="image/x-icon" href="../../../../../assets/img/favicon.ico">
+    <link rel="stylesheet" href="../../../../../assets/css/site.css">
+    <link rel="stylesheet" href="../../../../../assets/css/modules.css">
+    <style>
+        .schedule-row { display: grid; grid-template-columns: 100px 1fr; gap: 1rem; border-bottom: 1px solid var(--border); padding: 1rem 0; }
+        .time { font-weight: bold; color: var(--primary); }
+        .trainer-note { display: none; background: #fffaf0; border: 1px dashed #d69e2e; padding: 0.5rem; margin-top: 0.5rem; font-size: 0.85rem; }
+        body.show-trainer-notes .trainer-note { display: block; }
+        .toggle-box { background: var(--muted); padding: 1rem; border-radius: 8px; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between; }
+        body { font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo">
+                <img src="../../../../../assets/img/ai-dl-sb-logo.jpg" alt="Logo" class="site-logo">
+                <a href="../../../../../index_si.html" style="text-decoration: none; color: inherit;">AI සහ ඩිජිටල් හැකියා සංවර්ධනය</a>
+            </div>
+            <div class="lang-selector">
+                <a href="../../../../en/digitruck/schedules/daily/elderly.html">English</a>
+                <a href="elderly.html" class="active">සිංහල</a>
+                <a href="#">தமிழ்</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="vision-hero">
+            <p class="breadcrumb">DigiTruck > කාලසටහන් > දෛනික</p>
+            <h1>දින සැලසුම: වැඩිහිටි / බැහැරවූ ප්‍රජාව</h1>
+            <p>අරමුණ: දුරකථන භාවිතය පිළිබඳ බිය දුරු කිරීම, පවුලේ සබඳතා සහ රජයේ සහාය ලබා ගැනීම.</p>
+        </section>
+
+        <div class="toggle-box">
+            <span>දර්ශනය: <strong>සාමාන්‍ය</strong></span>
+            <button onclick="document.body.classList.toggle('show-trainer-notes')" class="btn outline" style="margin-top:0">ගුරු උපදෙස් පෙන්වන්න/සඟවන්න</button>
+        </div>
+
+        <div class="schedule-list">
+            <div class="schedule-row">
+                <div class="time">09:00</div>
+                <div class="activity">
+                    <h3>S1: දුරකථනයේ මූලිකාංග සහ පහසුව</h3>
+                    <p>අකුරු විශාල කිරීම, ශබ්දය පාලනය සහ පහසුවෙන් සම්බන්ධතා සොයා ගැනීම.</p>
+                    <a href="../../modules/core/core-01-fundamentals.html" class="btn outline">පාඩම CORE-01</a>
+                    <div class="trainer-note">සහභාගිවන්නන්ගේ දුරකථන වල අකුරු ප්‍රමාණය (Font size) වහාම වැඩි කිරීමට උදව් වන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">09:45</div>
+                <div class="activity">
+                    <h3>S2: පවුලේ ඇමතුම් සහ WhatsApp</h3>
+                    <p>වීඩියෝ ඇමතුම් ගැනීම සහ ආරක්ෂිතව පවුලේ ඡායාරූප හුවමාරු කිරීම.</p>
+                    <a href="../../modules/core/core-02-communication.html" class="btn outline">පාඩම CORE-02</a>
+                    <div class="trainer-note">සැක සහිත ඇමතුම් හෝ පණිවිඩ එවන අය "Block" කරන ආකාරය කියා දෙන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">10:30</div>
+                <div class="activity">
+                    <h3>S3: වංචා හඳුනා ගැනීම සහ ආරක්ෂාව</h3>
+                    <p>කිසිවිටකත් හුවමාරු නොකළ යුතු රහස් සහ දුරකථන අගුළු දැමීමේ පුරුදු.</p>
+                    <a href="../../modules/core/core-03-safety-trust.html" class="btn outline">පාඩම CORE-03</a>
+                    <div class="trainer-note">අනතුරු අවබෝධ කර දීමට සැබෑ ලෝකයේ "මුදල් වංචා" කතාන්දර භාවිතා කරන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">11:30</div>
+                <div class="activity">
+                    <h3>S4: රජයේ සේවා සඳහා මඟ පෙන්වීම</h3>
+                    <p>සායන වෙන් කිරීම සහ විශ්‍රාම වැටුප් තොරතුරු පරීක්ෂාව.</p>
+                    <a href="../../modules/core/core-04-gov-services.html" class="btn outline">පාඩම CORE-04</a>
+                    <div class="trainer-note">බිය නොවී සෙමින් වැඩ කිරීමට උනන්දු කරන්න. අවශ්‍ය නම් සහාය ලබා දෙන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">13:30</div>
+                <div class="activity">
+                    <h3>S5: බැංකු ආරක්ෂාව සහ රිසිට්පත්</h3>
+                    <p>ගිණුමේ ශේෂය පරීක්ෂාව සහ රිසිට්පත් සුරක්ෂිතව තබා ගැනීම.</p>
+                    <a href="../../modules/core/core-06-banking-atm.html" class="btn outline">පාඩම CORE-06</a>
+                    <div class="trainer-note">"SMS Alert" එක ආරක්ෂාව පිළිබඳ තහවුරු කිරීමක් බව පැහැදිලි කරන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">14:45</div>
+                <div class="activity">
+                    <h3>S6: AI දැනුවත්භාවය සහ කටහඬින් වැඩ කිරීම</h3>
+                    <p>කටහඬින් පණිවිඩ යැවීම සහ AI යනු කුමක්දැයි තේරුම් ගැනීම.</p>
+                    <a href="../../modules/core/core-07-ai-awareness.html" class="btn outline">පාඩම CORE-07</a>
+                    <div class="trainer-note">ක්‍රියාකාරකම: මයික්‍රොෆෝනය භාවිතා කර WhatsApp පණිවිඩයක් යැවීම පුහුණු කරන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">16:00</div>
+                <div class="activity">
+                    <h3>S7: සහායක සැලසුම සහ මිතුරා හඳුනා ගැනීම</h3>
+                    <p>ඔබේ ඩිජිටල් මිතුරා හඳුනා ගැනීම සහ ඊළඟ පුහුණු වාරය.</p>
+                    <a href="../../modules/core/core-11-gn-continuity.html" class="btn outline">පාඩම CORE-11</a>
+                    <div class="trainer-note">සෑම සහභාගිවන්නෙකුම අඛණ්ඩ උදව් සඳහා දේශීය පුහුණුකරුවෙකු සමඟ සම්බන්ධ කරන්න.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2000-2026 සාමිස අබේසිංහ. <a href="../../../../../LICENSE">CC BY-SA 4.0</a> යටතේ බලපත්‍ර ලබා ඇත.</p>
+            <p class="trust-tagline">විශ්වාසය ගොඩනඟමු. විශ්වාස කිරීමට පෙර සත්‍යාපනය කරමු. සෑම දෙයක්ම පරීක්ෂා කරමු.</p>
+        </div>
+    </footer>
+</body>
+</html>

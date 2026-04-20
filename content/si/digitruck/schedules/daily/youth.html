@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>දින සැලසුම: තරුණ තරුණියන් | DigiTruck</title>
+    <link rel="icon" type="image/x-icon" href="../../../../../assets/img/favicon.ico">
+    <link rel="stylesheet" href="../../../../../assets/css/site.css">
+    <link rel="stylesheet" href="../../../../../assets/css/modules.css">
+    <style>
+        .schedule-row { display: grid; grid-template-columns: 100px 1fr; gap: 1rem; border-bottom: 1px solid var(--border); padding: 1rem 0; }
+        .time { font-weight: bold; color: var(--primary); }
+        .trainer-note { display: none; background: #fffaf0; border: 1px dashed #d69e2e; padding: 0.5rem; margin-top: 0.5rem; font-size: 0.85rem; }
+        body.show-trainer-notes .trainer-note { display: block; }
+        .toggle-box { background: var(--muted); padding: 1rem; border-radius: 8px; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo">
+                <img src="../../../../../assets/img/ai-dl-sb-logo.jpg" alt="Logo" class="site-logo">
+                <a href="../../../../../index_si.html" style="text-decoration: none; color: inherit;">AI සහ ඩිජිටල් හැකියා සංවර්ධනය</a>
+            </div>
+            <div class="lang-selector">
+                <a href="../../../../en/digitruck/schedules/daily/youth.html">English</a>
+                <a href="youth.html" class="active">සිංහල</a>
+                <a href="#">தமிழ்</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="vision-hero">
+            <p class="breadcrumb">DigiTruck > කාලසටහන් > දෛනික</p>
+            <h1>දින සැලසුම: තරුණ තරුණියන්</h1>
+            <p>අරමුණ: රැකියා කුසලතා, වෘත්තීය AI භාවිතය සහ ඩිජිටල් ප්‍රතිරූපය.</p>
+        </section>
+
+        <div class="toggle-box">
+            <span>දර්ශනය: <strong>සාමාන්‍ය</strong></span>
+            <button onclick="document.body.classList.toggle('show-trainer-notes')" class="btn outline" style="margin-top:0">ගුරු උපදෙස් පෙන්වන්න/සඟවන්න</button>
+        </div>
+
+        <div class="schedule-list">
+            <div class="schedule-row">
+                <div class="time">09:00</div>
+                <div class="activity">
+                    <h3>S1: ඩිජිටල් වැඩබිම සකසා ගැනීම</h3>
+                    <p>ක්ලවුඩ් (Cloud) භාවිතය, බ්‍රවුසර් කාර්යක්ෂමතාව සහ Email mastery.</p>
+                    <a href="../../modules/core/core-01-fundamentals.html" class="btn outline">පාඩම CORE-01</a>
+                    <div class="trainer-note">සෑම අයෙකුටම වෘත්තීය මට්ටමේ Email ලිපිනයක් (name.surname@...) ඇති බව තහවුරු කරන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">09:45</div>
+                <div class="activity">
+                    <h3>S2: වෘත්තීය සන්නිවේදනය සහ ඩිජිටල් ප්‍රතිරූපය</h3>
+                    <p>රැකියා විමසීම් සහ ඔබේ ඩිජිටල් සලකුණ (Footprint) පාලනය කිරීම.</p>
+                    <a href="../../modules/core/core-02-communication.html" class="btn outline">පාඩම CORE-02</a>
+                    <div class="trainer-note">ක්‍රියාකාරකම: ඔබේ නම Google හි සොයා බලා ලැබෙන ප්‍රතිඵල විමර්ශනය කරන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">10:30</div>
+                <div class="activity">
+                    <h3>S3: වංචා, 2FA සහ පොදු Wi-Fi අවදානම්</h3>
+                    <p>මුරපද ආරක්ෂා කර ගැනීම සහ Two-Factor Authentication සක්‍රීය කිරීම.</p>
+                    <a href="../../modules/core/core-03-safety-trust.html" class="btn outline">පාඩම CORE-03</a>
+                    <div class="trainer-note">Google හෝ WhatsApp හි 2FA ක්‍රියාත්මක කරන ආකාරය පෙන්වා දෙන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">11:30</div>
+                <div class="activity">
+                    <h3>S4: රැකියා සහතික සහ රජයේ ද්වාර</h3>
+                    <p>විදේශ ගමන් බලපත්‍ර සහ අනෙකුත් සහතික සඳහා දින වෙන් කර ගැනීම.</p>
+                    <a href="../../modules/core/core-04-gov-services.html" class="btn outline">පාඩම CORE-04</a>
+                    <div class="trainer-note">පුද්ගලයින් ලියාපදිංචි කිරීමේ දෙපාර්තමේන්තුවේ වෙබ් අඩවිය පෙන්වන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">13:30</div>
+                <div class="activity">
+                    <h3>S5: බැංකු සේවා, ඇලර්ට් සහ අයවැය</h3>
+                    <p>මොබයිල් මුදල් හුවමාරු, බිල්පත් ගෙවීම සහ ගැටළු විසඳීම.</p>
+                    <a href="../../modules/core/core-06-banking-atm.html" class="btn outline">පාඩම CORE-06</a>
+                    <div class="trainer-note">ඩිජිටල් ගනුදෙනු වලදී සිදු විය හැකි වැරදි සහ ඒවා නිවැරදි කර ගන්නා ආකාරය සාකච්ඡා කරන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">14:45</div>
+                <div class="activity">
+                    <h3>S6: AI හරහා CV සහ සම්මුඛ පරීක්ෂණ පුහුණුව</h3>
+                    <p>AI සහාය ඇතිව රැකියා ලිපි සකස් කිරීම සහ ප්‍රශ්න වලට පිළිතුරු පුහුණුව.</p>
+                    <a href="../../modules/core/core-08-ai-aptitude.html" class="btn outline">පාඩම CORE-08</a>
+                    <div class="trainer-note">ක්‍රියාකාරකම: "රැකියා විස්තරයක් AI එකට දී එයට ගැලපෙන කුසලතා 3ක් අසන්න."</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">16:00</div>
+                <div class="activity">
+                    <h3>S7: පෝර්ට්ෆෝලියෝ (Portfolio) සහ මාවත්</h3>
+                    <p>ඔබේ දක්ෂතා පෙන්වන ගොනුවක් සකසා ගැනීම සහ ග්‍රාමීය සායන වලට ලියාපදිංචිය.</p>
+                    <a href="../../modules/core/core-10-opportunity.html" class="btn outline">පාඩම CORE-10</a>
+                    <div class="trainer-note">කෙටි කාලීන (Gig work) සහ ස්ථිර රැකියා අඩවි වල වෙනස පැහැදිලි කරන්න.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2000-2026 සාමිස අබේසිංහ. <a href="../../../../../LICENSE">CC BY-SA 4.0</a> යටතේ බලපත්‍ර ලබා ඇත.</p>
+            <p class="trust-tagline">විශ්වාසය ගොඩනඟමු. විශ්වාස කිරීමට පෙර සත්‍යාපනය කරමු. සෑම දෙයක්ම පරීක්ෂා කරමු.</p>
+        </div>
+    </footer>
+</body>
+</html>

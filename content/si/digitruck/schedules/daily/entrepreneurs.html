@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>දින සැලසුම: ව්‍යවසායකයින් | DigiTruck</title>
+    <link rel="icon" type="image/x-icon" href="../../../../../assets/img/favicon.ico">
+    <link rel="stylesheet" href="../../../../../assets/css/site.css">
+    <link rel="stylesheet" href="../../../../../assets/css/modules.css">
+    <style>
+        .schedule-row { display: grid; grid-template-columns: 100px 1fr; gap: 1rem; border-bottom: 1px solid var(--border); padding: 1rem 0; }
+        .time { font-weight: bold; color: var(--primary); }
+        .trainer-note { display: none; background: #fffaf0; border: 1px dashed #d69e2e; padding: 0.5rem; margin-top: 0.5rem; font-size: 0.85rem; }
+        body.show-trainer-notes .trainer-note { display: block; }
+        .toggle-box { background: var(--muted); padding: 1rem; border-radius: 8px; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo">
+                <img src="../../../../../assets/img/ai-dl-sb-logo.jpg" alt="Logo" class="site-logo">
+                <a href="../../../../../index_si.html" style="text-decoration: none; color: inherit;">AI සහ ඩිජිටල් හැකියා සංවර්ධනය</a>
+            </div>
+            <div class="lang-selector">
+                <a href="../../../../en/digitruck/schedules/daily/entrepreneurs.html">English</a>
+                <a href="entrepreneurs.html" class="active">සිංහල</a>
+                <a href="#">தமிழ்</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="vision-hero">
+            <p class="breadcrumb">DigiTruck > කාලසටහන් > දෛනික</p>
+            <h1>දින සැලසුම: ග්‍රාමීය ව්‍යවසායකයින්</h1>
+            <p>අරමුණ: ව්‍යාපාරික මෙහෙයුම්, QR ගෙවීම් සහ AI අලෙවිකරණය.</p>
+        </section>
+
+        <div class="toggle-box">
+            <span>දර්ශනය: <strong>සාමාන්‍ය</strong></span>
+            <button onclick="document.body.classList.toggle('show-trainer-notes')" class="btn outline" style="margin-top:0">ගුරු උපදෙස් පෙන්වන්න/සඟවන්න</button>
+        </div>
+
+        <div class="schedule-list">
+            <div class="schedule-row">
+                <div class="time">09:00</div>
+                <div class="activity">
+                    <h3>S1: ව්‍යාපාරික ඩිජිටල් ෆෝල්ඩරය</h3>
+                    <p>ලේඛන Scan කිරීම සහ ව්‍යාපාරික තොරතුරු සත්‍යාපනය.</p>
+                    <a href="../../modules/core/core-01-fundamentals.html" class="btn outline">පාඩම CORE-01</a>
+                    <div class="trainer-note">ව්‍යාපාරික ඡායාරූප පවුලේ ඡායාරූප වලින් වෙන් කර තබා ගැනීමට උදව් වන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">09:45</div>
+                <div class="activity">
+                    <h3>S2: පාරිභෝගික සන්නිවේදනය සහ සැකිලි</h3>
+                    <p>ඇණවුම් තහවුරු කිරීමේ පණිවිඩ සහ පැමිණිලි හසුරුවන ආකාරය.</p>
+                    <a href="../../modules/core/core-02-communication.html" class="btn outline">පාඩම CORE-02</a>
+                    <div class="trainer-note">ක්‍රියාකාරකම: WhatsApp Quick Reply ලෙස "සාදරයෙන් පිළිගැනීමේ පණිවිඩයක්" සාදන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">10:30</div>
+                <div class="activity">
+                    <h3>S3: ව්‍යාපාරික වංචා සහ ගිණුම් ආරක්ෂාව</h3>
+                    <p>ව්‍යාජ ගෙවීම් රිසිට්පත් හඳුනා ගැනීම සහ 2FA ආරක්ෂාව.</p>
+                    <a href="../../modules/core/core-03-safety-trust.html" class="btn outline">පාඩම CORE-03</a>
+                    <div class="trainer-note">ව්‍යාජ රිසිට් පත් වල ඡායාරූප සහ බැංකු වාර්තා (History) අතර වෙනස පෙන්වන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">11:30</div>
+                <div class="activity">
+                    <h3>S4: ව්‍යාපාරික සේවා සඳහා රජයේ ද්වාර</h3>
+                    <p>ආදායම් බලපත්‍ර, අවසර පත්‍ර සහ බදු තොරතුරු සොයා ගැනීම.</p>
+                    <a href="../../modules/core/core-04-gov-services.html" class="btn outline">පාඩම CORE-04</a>
+                    <div class="trainer-note">මෝටර් රථ ප්‍රවාහන හෝ සුළු පරිමාණ ව්‍යවසායක ලියාපදිංචි පිටු පෙන්වන්න.</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">13:30</div>
+                <div class="activity">
+                    <h3>S5: QR ගෙවීම් සහ දෛනික ගිණුම්කරණය</h3>
+                    <p>ස්ථාවර සහ ගතික QR භාවිතය සහ දෛනික අලෙවිය පරීක්ෂාව.</p>
+                    <a href="../../modules/core/core-05-qr-payments.html" class="btn outline">පාඩම CORE-05</a>
+                    <div class="trainer-note">ක්‍රියාකාරකම: "රු. 1,500ක අලෙවියක් සඳහා ගතික (Dynamic) QR එකක් සාදන්න."</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">14:45</div>
+                <div class="activity">
+                    <h3>S6: AI හරහා ව්‍යාපාර ප්‍රවර්ධනය</h3>
+                    <p>වෘත්තීය මට්ටමේ පත්‍රිකා සහ WhatsApp අලෙවි පණිවිඩ AI හරහා සැකසීම.</p>
+                    <a href="../../modules/core/core-08-ai-aptitude.html" class="btn outline">පාඩම CORE-08</a>
+                    <div class="trainer-note">ප්‍රොම්ප්ට්: "වෘත්තීය වෙළඳ නියෝජිතයෙකු ලෙස සිතා නැවුම් තේ කොළ සඳහා පණිවිඩයක් ලියන්න."</div>
+                </div>
+            </div>
+
+            <div class="schedule-row">
+                <div class="time">16:00</div>
+                <div class="activity">
+                    <h3>S7: ව්‍යාපාර සැලසුම සහ අඛණ්ඩ සහාය</h3>
+                    <p>ගිණුම් පියවීමේ රටාවන් සහ සහායක ජාලය සමඟ සම්බන්ධ වීම.</p>
+                    <a href="../../modules/core/core-11-gn-continuity.html" class="btn outline">පාඩම CORE-11</a>
+                    <div class="trainer-note">දිනකට එක් වරක් හෝ ගිණුම් පරීක්ෂා කිරීමේ (Reconciliation) පුරුද්ද ඇති කරන්න.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2000-2026 සාමිස අබේසිංහ. <a href="../../../../../LICENSE">CC BY-SA 4.0</a> යටතේ බලපත්‍ර ලබා ඇත.</p>
+            <p class="trust-tagline">විශ්වාසය ගොඩනඟමු. විශ්වාස කිරීමට පෙර සත්‍යාපනය කරමු. සෑම දෙයක්ම පරීක්ෂා කරමු.</p>
+        </div>
+    </footer>
+</body>
+</html>
